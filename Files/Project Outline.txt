@@ -1,0 +1,25 @@
+Project Outline
+
+Data Concerns/
+
+Train between HCC of 9k and above to predict claim amounts. Above 9k = High risk, at or below 9k low risk. Focus on normalizing the claim amount due to large range. 
+
+Cluster on Region via get Dummies
+Will need to test the significance of children on the data (maybe the children's claims are included in the patient's? (If so bad data quality there)
+
+
+
+Supervised Diabetic Prediction would also be great!
+
+Supervised Smoker Identification would be great too!
+
+Supervised Claim Amount Prediction might work!
+
+
+EC use bayesian Algs to reproduce additional data to test the model on then price insurance on it (no breakdown on patient SBCs so just a straight projection), Markov Chains with a discretized Kernel are likely the best direction. Easy to assign a CDF or even fit a poisson dist here. Worst Case Scenario use a surrogate distribution to closely emulate and see if the models highlight any differences.
+
+RS use some flavor of SQL to clean data and establish a pipeline.
+
+RS to write the extended readme file
+
+RS to implement dummies/data cleaning/clustering
