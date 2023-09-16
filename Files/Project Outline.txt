@@ -5,7 +5,7 @@ Data Concerns/
 Train between HCC of 9k and above to predict claim amounts. Above 9k = High risk, at or below 9k low risk. Focus on normalizing the claim amount due to large range. 
 
 Cluster on Region via get Dummies
-Will need to test the significance of children on the data (maybe the children's claims are included in the patient's? (If so bad data quality there)
+Will need to test the significance of children on the data maybe the children's claims are included in the patient's? (If so bad data quality there)
 
 
 
@@ -20,6 +20,6 @@ EC use bayesian Algs to reproduce additional data to test the model on then pric
 
 RS use some flavor of SQL to clean data and establish a pipeline.
 
-RS to write the extended readme file
+RS to write the extended readme/write up file
 
 RS to implement dummies/data cleaning/clustering
